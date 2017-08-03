@@ -93,4 +93,12 @@ public class CurlUtil {
         }
         return result;
     }
+
+    public static void main(String[] args) {
+        String url = "http://hongyan.cqupt.edu.cn/MagicLoop/index.php?s=/addon/InquiryExam/InquiryExam/testAtHome&type=qmcj&xh=2016214052";
+        Map<String, Object> params = null;
+        String type = "GET";
+        String str = CurlUtil.getContent(url, params, type);
+        System.out.println(str);
+    }
 }

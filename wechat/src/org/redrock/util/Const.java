@@ -7,7 +7,8 @@ public class Const {
 
     public static final String AppId = "xxx";
     public static final String AppSecret = "xxx";
-    public static final String Token = "xxx";
+    public static final String Token = "woshijiangtianxing";
     //测试账号暂时不用配置
+
     //public static final String EncodingAESKey = "xxx";
 }

@@ -15,6 +15,7 @@ import java.io.StringReader;
  */
 public class XmlUtil {
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException {
+        //把字符串转化为Document对象
         String xml = CurlUtil.getContent("http://www.w3school.com.cn/example/xmle/plant_catalog.xml", null, "GET");
         StringReader reader = new StringReader(xml);
         InputSource source = new InputSource(reader);
@@ -61,4 +62,5 @@ public class XmlUtil {
             builder.append("</").append(nName).append(">");
         }
     }
+
 }
