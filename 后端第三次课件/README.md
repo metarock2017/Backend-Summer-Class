@@ -20,6 +20,10 @@
    + 然后在你发送请求时带上这个 jwt，可以放在 header 里，格式参考官网给的文档，也可以是以get参数的方式（这个不推荐，你可以自己测试的时候用）`?token=xxxxx`
    + 然后获取你的用户信息
 
+   [官方文档](https://github.com/tymondesigns/jwt-auth/wiki)
+
+   ​
+
 ## 人员
 
 1guixuan
